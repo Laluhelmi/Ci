@@ -18,6 +18,7 @@ class index extends CI_Controller{
     }
     function index(){
         $data['nama'] = 'jamal dan ahmad ';
+        $data['namanya'] = array('saya','kamu');
         $this->load->view('tampil1',$data);
     }
     function panggil($id){

@@ -12,7 +12,10 @@ and open the template in the editor.
     <body>
         <h2>
         <?php
-        echo $nama;
+        echo $nama.'<br>';
+        foreach ($namanya as $baru){
+            echo $baru.' ';
+        }
         ?></h2>
     </body>
 </html>
